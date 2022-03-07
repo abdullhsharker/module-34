@@ -12,6 +12,7 @@ const displayShow = (buddy) => {
         const p = document.createElement('p');
         p.innerText = `name:${buddy.name.title} ${buddy.name.first} ${buddy.name.last} Email: ${buddy.email} `
         buddiesclass.appendChild(p);
+
     }
 
 }
